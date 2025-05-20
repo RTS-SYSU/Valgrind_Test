@@ -44,7 +44,7 @@ for dir in */; do
 
     value4=0
     for num in $value3; do
-        value4=$((value4*113 + num))
+        value4=$((value4 + num*113))
     done
 
     # 增加有效性检查
